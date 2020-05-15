@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wendyzt03.github.io</id>
     <title>wendy的三间小屋</title>
-    <updated>2020-05-15T15:51:17.528Z</updated>
+    <updated>2020-05-15T16:38:58.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wendyzt03.github.io"/>
     <link rel="self" href="https://wendyzt03.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://wendyzt03.github.io/images/avatar.png</logo>
     <icon>https://wendyzt03.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wendy的三间小屋</rights>
+    <entry>
+        <title type="html"><![CDATA[《How to Grow Old》Bertrand Russell]]></title>
+        <id>https://wendyzt03.github.io/post/lesslesshow-to-grow-oldgreatergreater-bertrand-russell/</id>
+        <link href="https://wendyzt03.github.io/post/lesslesshow-to-grow-oldgreatergreater-bertrand-russell/">
+        </link>
+        <updated>2020-05-15T16:35:51.000Z</updated>
+        <content type="html"><![CDATA[<p>要克服这种怕死的念头，最好的办法 — 至少在我看来 — 就是要逐渐使自己关心更多的事情，关心那些不跟自己直接有关的事情，到后来，自我的壁垒就会慢慢消失，个人的生活也就越来越和社会生活融合在一起了。人生应当像条河，开头河身狭窄，夹在两岸之间，河水奔腾咆哮，流过巨石，飞下悬崖。后来河面逐渐展宽，两岸离得越来越远，河水也流得较为平缓，最后流进大海，与海水浑然一体，看不出任何界线。从而结束其单独存在的那一段历程，但毫无痛苦之感。如果一个人到了老年能够这样看待自己的一生，他就不会怕死了，因为他所关心的一切将会继续下去。如果随着精力的衰退，日见倦怠，就会觉得长眠未尝不是一件好事。我就希望工作时死去，知道自己不再能做的事有人会继续做下去，并且怀着满意的心情想到，自己能做的事都已做到了。</p>
+<p>罗素用朴素的语言说出了如此宏大的道理。保持好奇，勇于尝试一切，不把自己看得太重，大概是最好的变老方式。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[模拟城市simcity]]></title>
         <id>https://wendyzt03.github.io/post/mo-ni-cheng-shi-simcity/</id>
