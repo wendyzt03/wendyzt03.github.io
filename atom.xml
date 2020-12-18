@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wendyzt03.github.io</id>
     <title>wendy的三间小屋</title>
-    <updated>2020-12-18T14:05:18.666Z</updated>
+    <updated>2020-12-18T14:09:27.661Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wendyzt03.github.io"/>
     <link rel="self" href="https://wendyzt03.github.io/atom.xml"/>
@@ -10,18 +10,6 @@
     <logo>https://wendyzt03.github.io/images/avatar.png</logo>
     <icon>https://wendyzt03.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wendy的三间小屋</rights>
-    <entry>
-        <title type="html"><![CDATA[他者的消失]]></title>
-        <id>https://wendyzt03.github.io/post/ta-zhe-de-xiao-shi/</id>
-        <link href="https://wendyzt03.github.io/post/ta-zhe-de-xiao-shi/">
-        </link>
-        <updated>2020-10-16T14:23:46.000Z</updated>
-        <content type="html"><![CDATA[<p>关于网络上发言，很多人说，“这是我的地盘，表达什么是我的自由，有反对意见就是杠我”，还有反对派“你占用公共资源，自己用word写，谁也不会骂你”这种想法太片面了。<br>
-公开平台本来是交流的机会，可是现实社交网络精准算法推荐，导致大家只想看到与自己想法一致的东西，自己情绪的ego无限扩张，也就是“他者的消失”，自恋与抑郁相伴而来。<br>
-还是要允许反对观点的出现，可以不理会但必须要有。</p>
-<p>问题是意识到了，方法论，我看到的只有“活在当下”😌我自己也是做不到😢打破什么的太痛苦了，还是自恋简单一点😢</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[谈电量理论]]></title>
         <id>https://wendyzt03.github.io/post/tan-dian-liang-li-lun/</id>
