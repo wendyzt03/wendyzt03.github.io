@@ -1,9 +1,11 @@
+
+<!DOCTYPE html>
 <html>
   <head>
     
 <meta charset="utf-8" >
 
-<title>wendy的三间小屋</title>
+<title>他者的消失 | wendy的三间小屋</title>
 <meta name="description" content="wendy的三间小屋">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +16,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://wendyzt03.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -75,21 +83,53 @@
 </transition>
 
 
-        <div class="content-container">
+      <div class="content-container">
+        <div class="post-detail">
           
-          <div class="tags-container">
+          <h2 class="post-title">他者的消失</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-10-16</span>
             
-              <a class="tag" href="https://wendyzt03.github.io/tag/ryI5nmCXD/">我自己innner space</a>
-            
-              <a class="tag" href="https://wendyzt03.github.io/tag/wLCdcWUS/">爱与恨love&amp;hate</a>
-            
-              <a class="tag" href="https://wendyzt03.github.io/tag/oncvxLHEC/">其他others</a>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wendyzt03.github.io/tag/ryI5nmCXD/">
+                    我自己innner space
+                    
+                  </a>
+                
+              </span>
             
           </div>
+          <div class="post-content">
+            <p>关于网络上发言，很多人说，“这是我的地盘，表达什么是我的自由，有反对意见就是杠我”，还有反对派“你占用公共资源，自己用word写，谁也不会骂你”这种想法太片面了。<br>
+公开平台本来是交流的机会，可是现实社交网络精准算法推荐，导致大家只想看到与自己想法一致的东西，自己情绪的ego无限扩张，也就是“他者的消失”，自恋与抑郁相伴而来。<br>
+还是要允许反对观点的出现，可以不理会但必须要有。</p>
+<p>问题是意识到了，方法论，我看到的只有“活在当下”😌我自己也是做不到😢打破什么的太痛苦了，还是自恋简单一点😢</p>
 
+          </div>
         </div>
 
-        <div class="site-footer">
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://wendyzt03.github.io/post/tan-dian-liang-li-lun/">
+              <h3 class="post-title">
+                下一篇：谈电量理论
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
   <div class="slogan">wendy的三间小屋</div>
   <div class="social-container">
     
@@ -108,8 +148,8 @@
 </div>
 
 
-      </div>
-      <script type="application/javascript">
+    </div>
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
 
@@ -124,7 +164,29 @@ var app = new Vue({
 
 
 
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
 
-    </div>
+      var gitalk = new Gitalk({
+        clientID: 'f2343b8583d68560c4c7',
+        clientSecret: 'a5b2bb2e65873023f1017b488c242d71acfec6c0',
+        repo: 'commet.git',
+        owner: 'wendyzt03',
+        admin: ['wendyzt03'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
